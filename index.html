@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #005e21;" data-bs-theme="">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo Image" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accordionExample">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Chameleon.jpg" class="d-block w-100" alt="chameleon-image" id="chameleon">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Comfort</h5>
+                    <p>We love to provide our animal friends with comfort while your away, accomodating to the needs of
+                        your scaley friend!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/green-lizard.jpg" class="d-block w-100" alt="blue-lizard-img" id="green-lizard">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Security</h5>
+                    <p>With us, your pet is safe. We keep lizards seperate, so there's no fighting or discomfort</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/orange-lizard.jpg" class="d-block w-100" alt="orange-lizard">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Affordability</h5>
+                    <p>We get it. There aren't too many lizard day cares. But we promsie that our pirices won't ever be
+                        high depsite our lack of competition!</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="card-group" id="services">
+        <div class="card text-bg-dark mb-3">
+            <img src="images/eating-fly.jpg" class="card-img-top" alt="Picture of chameleon eating a fly">
+            <div class="card-body">
+                <h5 class="card-title">Feeding</h5>
+                <p class="card-text"> We sell pet food and have speicalists that will help make dietary adjustments
+                    for your pet.</p>
+            </div>
+        </div>
+        <div class="card text-bg-dark mb-3">
+            <img src="images/vet.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Veterinary</h5>
+                <p class="card-text">We have vets on site that can help your scale covered friend if something happens
+                    while under our care. We also have appointment availability for veterinary services.</p>
+            </div>
+        </div>
+        <div class="card text-bg-dark mb-3">
+            <img src="images/reptile-tank.jpg" class="card-img-top" alt="..." id="reptile-tank">
+            <div class="card-body">
+                <h5 class="card-title">Merchandise</h5>
+                <p class="card-text">Toys, tanks, trinkets. You can buy all reptile themed things here at our facility
+                    or below on our website!</p>
+                <a href="#" class="btn btn-primary text-bg-success border-success">Our Store!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item text-bg-dark">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    FAQ: Are Lizards kept separate from each other?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-bg-dark">
+                    The lizards in our care are only kept separate if they are notified to be violent by the owner or if
+                    they are males. Female lizards that are not specified to be aggressive are assumed safe to be in the
+                    same tank.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    FAQ: What are your locations?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-bg-dark">
+                    For the moment we only have one location in Springfield, MO. We are looking to expand and appreciate
+                    your business very much!
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    FAQ: Do I have to make an appointment?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Yes, it is prefered that you make an appointment so that you can have a guaranteed spot, and you
+                    won't have to leave your lizard friend at home while your away!
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

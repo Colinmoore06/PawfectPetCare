@@ -1,0 +1,40 @@
+#logo {
+    width: 70px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    background-image: url(images/leaves.png);
+    background-size: 25%;
+}
+
+#blue-lizard {
+    height: 300px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.carousel {
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 35%;
+    margin-bottom: 150px;
+}
+
+#reptile-tank {
+    height: 21.9vw;
+}
+
+#accordionExample {
+    margin-bottom: 40px;
+}
